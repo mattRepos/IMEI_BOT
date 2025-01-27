@@ -6,3 +6,5 @@ services:
     command: python main.py
     volumes:
       - ./:/app
+    env_file:
+      - .env
